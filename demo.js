@@ -1,5 +1,5 @@
 const Scene = require("Scene");
-// const FaceTracking = require('FaceTracking');
+const FaceTracking = require('FaceTracking');
 const Time = require("Time");
 const Diagnostics = require ("Diagnostics");
 
