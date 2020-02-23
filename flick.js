@@ -12,6 +12,7 @@ const hatStartPosition = hat.transform.position
 var startPanTime = null
 var yTranslation = null
 
+// todo: approximate instantaneous velocity instead of average velocity for more realistic flick
 function pixelsPerMs(translation, ms) {
     return translation / ms
 }
